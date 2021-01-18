@@ -99,10 +99,10 @@ function loadConfig() {
     } else {
         DISCORD_TOK = process.env.DISCORD_TOK;
         WITAPIKEY = process.env.WITAPIKEY;
-		TEXTANALYTICSKEY = process.env.text_analytics_key;
-		TEXTANALYTICSENDPOINT = process.env.text_analytics_endpoint;
-		TRANSLATEKEY = process.env.translate_key;
-		TRANSLATEENDPOINT = process.env.translate_endpoint;
+		TEXTANALYTICSKEY = process.env.TEXTANALYTICSKEY;
+		TEXTANALYTICSENDPOINT = process.env.TEXTANALYTICSENDPOINT;
+		TRANSLATEKEY = process.env.TRANSLATEKEY;
+		TRANSLATEENDPOINT = process.env.TRANSLATEENDPOINT;
     }
 	
 	console.log('TEXTANALYTICSKEY : ' + TEXTANALYTICSKEY)
