@@ -110,7 +110,7 @@ function loadConfig() {
 	console.log('TRANSLATEKEY : ' + TRANSLATEKEY)
 	console.log('TRANSLATEENDPOINT : ' + TRANSLATEENDPOINT)
 	
-    if (!DISCORD_TOK || !WITAPIKEY)
+    if (!DISCORD_TOK || !TEXTANALYTICSKEY)
         throw 'failed loading config #113 missing keys!'
     
 }
